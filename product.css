@@ -1,0 +1,209 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e003e; /* Dark purple background */
+    color: #e0e0e0; /* Light grey text for contrast */
+}
+
+a {
+    text-decoration: none;
+    color: #b19cd9; /* Light purple for links */
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #3c0a6d; /* Darker purple for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff; /* White for logo text */
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #d3a1e6; /* Light purple for nav links */
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #a55a9e; /* Darker purple on hover */
+}
+
+/* Main Product Section */
+.product-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #3e1f3b; /* Dark purple background for product section */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+}
+
+.product-gallery {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid #3e1f3b; /* Border matches background */
+}
+
+.thumbnail-images {
+    display: flex;
+    margin-top: 15px;
+}
+
+.thumbnail-images img {
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #3e1f3b; /* Border matches background */
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.thumbnail-images img:hover {
+    transform: scale(1.1);
+    border-color: #a55a9e; /* Darker purple border on hover */
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #d7b0f5; /* Light purple for heading */
+}
+
+.product-info .price {
+    font-size: 26px;
+    color: #a55a9e; /* Darker purple for price */
+    margin-bottom: 20px;
+}
+
+.product-info .description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #b19cd9; /* Light purple for description */
+    margin-bottom: 30px;
+}
+
+.btn-add-to-cart {
+    background-color: #a55a9e; /* Darker purple for button */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #d7b0f5; /* Light purple on hover */
+}
+
+/* Customer Reviews Section (Optional) */
+.customer-reviews {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #3e1f3b; /* Dark purple background for reviews */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+}
+
+.customer-reviews h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d7b0f5; /* Light purple for heading */
+}
+
+.review {
+    background-color: #2e003e; /* Dark purple for review background */
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #e0e0e0; /* Light grey for review text */
+}
+
+/* Related Products Section (Optional) */
+.related-products {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #3e1f3b; /* Dark purple background for related products */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+}
+
+.related-products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d7b0f5; /* Light purple for heading */
+}
+
+.related-product {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.related-product img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s, border-color 0.3s;
+    border: 2px solid #3e1f3b; /* Border matches background */
+}
+
+.related-product img:hover {
+    transform: scale(1.05);
+    border-color: #a55a9e; /* Darker purple border on hover */
+}
+
+.related-product p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #e0e0e0; /* Light grey for text */
+}
+
+/* Footer */
+.footer {
+    background-color: #3c0a6d; /* Darker purple for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+
+
